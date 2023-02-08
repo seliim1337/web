@@ -1,0 +1,45 @@
+{
+  "name": "niskii.dev",
+  "description": "My personal website, made using TypeScript, Vite.js and TailwindCSS.",
+  "version": "0.1.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/selim1337/niskii.dev.git"
+  },
+  "license": "MIT",
+  "author": "selim1337 <selim1337dev@gmail.com>",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "types:check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "2.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "vite": "3.1.8"
+  },
+  "devDependencies": {
+    "@types/node": "18.7.23",
+    "@types/react": "18.0.21",
+    "@types/react-dom": "18.0.6",
+    "@typescript-eslint/eslint-plugin": "5.40.0",
+    "@typescript-eslint/parser": "5.40.0",
+    "autoprefixer": "10.4.12",
+    "discord-api-types": "0.37.14",
+    "eslint": "8.25.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "postcss": "8.4.18",
+    "prettier": "2.7.1",
+    "tailwindcss": "3.1.8",
+    "typescript": "4.8.4"
+  }
+}
