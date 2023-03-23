@@ -4,7 +4,7 @@ export function DatesCard() {
       <h2 className="font-bold text-xs text-slate-300 leading-4 mb-2 uppercase">
       Discord Member Since
       </h2>
-      <span className="whitespace-pre-line text-normal">Feb 16, 2019</span>
+      <span className="whitespace-pre-line text-normal">Sep 15, 2017</span>
     </div>
   );
 }
