@@ -38,8 +38,8 @@ export function ProfileCard({ data }: CardProps) {
           {/* Username and tag */}
           <div className="pt-14 pb-3 px-4">
             <div className="text-xl font-semibold leading-6">
-              <span className="text-slate-50">selim{/*{data.discord_user.username}*/}</span>
-              <span className="text-slate-300">#1337{/*{data.discord_user.discriminator}*/}</span>
+              <span className="text-slate-50">{data.discord_user.username}</span>
+              {/*<span className="text-slate-300">#{data.discord_user.discriminator}</span>*/}
             </div>
           </div>
 
