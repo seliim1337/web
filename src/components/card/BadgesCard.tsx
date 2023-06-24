@@ -17,6 +17,7 @@ export function BadgesCard() {
             className="inline-block"
             draggable="false"
           />          
+      {/*
           <img
             src="/assets/discord-nitro.svg"
             alt="discord-nitro"
@@ -27,6 +28,15 @@ export function BadgesCard() {
           />
           <img
             src="/assets/discord-booster.svg"
+            alt="discord-booster"
+            width="22"
+            height="22"
+            className="inline-block"
+            draggable="false"
+          />
+          */}
+          <img
+            src="/assets/originally-name.png"
             alt="discord-booster"
             width="22"
             height="22"
