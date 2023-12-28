@@ -16,7 +16,7 @@ export function Avatar({ data }: CardProps) {
           <StatusDnd />
           <StatusIdle />
         </defs>
-        <foreignObject x="0" y="0" width="90" height="90" mask="url(#avatar-mask)">
+        <foreignObject x="0" y="0" width="95" height="95" mask="url(#avatar-mask)">
           <div className="grid w-full h-full">
             <picture>
               <source srcSet="/images/avatar-128.webp 1x, /images/avatar-256.webp 2x, /images/avatar-512.webp 3x" type="image/webp" />

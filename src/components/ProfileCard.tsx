@@ -29,16 +29,17 @@ export function ProfileCard({ data }: CardProps) {
           </picture>
 
           {/* Avatar */}
-          <div className="absolute top-[76px] left-[13px]">
+          <div className="absolute top-[75px] left-[13px]">
             <div className="rounded-full select-none">
               <Avatar data={data} />
             </div>
           </div>
 
-          {/* Username and tag */}
+          {/* Username */}
           <div className="pt-14 pb-3 px-4">
             <div className="text-xl font-semibold leading-6">
-              <span className="text-slate-50">{data.discord_user.username}</span>
+              <h1 className='absolute top-[160px] left-[16px] text-slate-50'>selim</h1>
+              <span className="text-sm">{data.discord_user.username}</span>
               {/*<span className="text-slate-300">#{data.discord_user.discriminator}</span>*/}
             </div>
           </div>
