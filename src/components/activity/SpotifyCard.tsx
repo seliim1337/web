@@ -23,7 +23,13 @@ export function SpotifyCard({ spotify }: CardProps) {
       {/* Image */}
       <div className="items-center flex flex-auto">
         <div className="relative self-start">
-        <img src={spotify.album_art_url} alt={spotify.album} width="60" height="60" className="select-none" />{' '}
+        <a
+            href={`${import.meta.env.VITE_SPOTIFY_URL}/track/${spotify.track_id}`}
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+          <img src={spotify.album_art_url} alt={spotify.album} width="60" height="60" className="select-none" />
+          </a>{' '}
         </div>
 
         <div className="flex-auto overflow-hidden ml-2.5 text-normal">
