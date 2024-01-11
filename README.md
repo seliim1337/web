@@ -35,4 +35,4 @@ yarn build
 
 ## License
 
-Distributed under the MIT license. See [``LICENSE``](https://github.com/seliim1337/web?tab=MIT-1-ov-file) for more information.
+Distributed under the MIT license. See [``LICENSE``](https://github.com/seliim1337/web/blob/main/LICENSE) for more information.
