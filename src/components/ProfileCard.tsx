@@ -38,7 +38,7 @@ export function ProfileCard({ data }: CardProps) {
           {/* Username */}
           <div className="pt-14 pb-3 px-4">
             <div className="text-xl font-semibold leading-6">
-              <h1 className='absolute top-[160px] left-[16px] text-slate-50'>{data.discord_user.global_name}</h1>
+              <h1 className='absolute top-[160px] left-[16px] text-slate-50'>selim</h1>
               <span className="text-sm">{data.discord_user.username}</span>
               {/*<span className="text-slate-300">#{data.discord_user.discriminator}</span>*/}
             </div>
