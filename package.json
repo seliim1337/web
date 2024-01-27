@@ -1,5 +1,5 @@
 {
-  "name": "niskii.devv",
+  "name": "niskii.dev",
   "description": "My personal website, made using TypeScript, Vite.js and TailwindCSS.",
   "version": "0.1.0",
   "private": true,
@@ -23,6 +23,7 @@
     "@material-tailwind/react": "^2.1.8",
     "@vitejs/plugin-react": "2.1.0",
     "css-tooltip": "^0.3.4",
+    "flowbite-react": "^0.7.2",
     "from": "^0.1.7",
     "import": "^0.0.6",
     "rc-tooltip": "^6.1.3",
