@@ -28,8 +28,12 @@ export function SpotifyCard({ spotify }: CardProps) {
             rel="noopener noreferrer"
             target="_blank"
           >
+<<<<<<< HEAD
           
           <img src={spotify.album_art_url} alt={spotify.album} width="70" height="70" className="h-auto w-14 rounded-xl sm:w-16 md:w-20 lg:w-20 select-none" />
+=======
+          <img data-tooltip-id="spotify-tooltip" data-tooltip-content={spotify.album} src={spotify.album_art_url} alt={spotify.album} width="70" height="70" className="select-none" />
+>>>>>>> 14ca5d30a42d77cd6e57917bbb4d2293a775dbcc
           </a>{' '}
         </div>
 

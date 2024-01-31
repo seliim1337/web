@@ -1,0 +1,46 @@
+#badges-tooltip{
+    position: absolute;
+    z-index: 100;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    top: 0;
+    left: 0;
+    font-size: 80%;
+    border-radius: 6px;
+    text-align: center;
+    padding: 6px 10px;
+    font-weight: 500;
+}
+#games-tooltip{
+    position: absolute;
+    z-index: 100;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    top: 0;
+    left: 0;
+    font-size: 80%;
+    border-radius: 6px;
+    text-align: center;
+    padding: 6px 10px;
+    font-weight: 500;
+}
+#spotify-tooltip{
+    position: absolute;
+    z-index: 100;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    top: 0;
+    left: 0;
+    font-size: 93%;
+    border-radius: 6px;
+    text-align: center;
+    padding: 4px 12px;
+    font-weight: 500;
+}
+#badges-background{
+padding-bottom: 5px; 
+height: 32px; 
+border-radius: 8px; 
+padding: 1px 5px;
+background-color: rgb(17,17,17);
+}
