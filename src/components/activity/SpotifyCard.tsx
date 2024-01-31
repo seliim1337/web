@@ -2,7 +2,7 @@ import { useTime } from '../../hooks/useTime';
 import { Spotify } from '../../types/lanyard';
 import { Spotify as SpotifyIcon } from '../icons/Spotify';
 import { SpotifyWhiteIcon } from '../icons/SpotifyWhiteIcon';
-import { ProgressBar } from '../ProgressBar';
+import { ProgressBar } from '../ProgressBar'
 
 interface CardProps {
   spotify: Spotify;
