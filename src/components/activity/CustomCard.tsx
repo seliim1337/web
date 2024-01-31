@@ -3,7 +3,7 @@ import type { GatewayActivity } from 'discord-api-types/v10';
 interface CardProps {
   activity: GatewayActivity;
 }
-
+// Emojilerde hata var göstermiyor
 export function CustomCard({ activity }: CardProps) {
   return (
     <div className="flex flex-row">

@@ -16,7 +16,7 @@ export class Lanyard {
     this.ws = new WebSocket(import.meta.env.VITE_GATEWAY_URL);
 
     this.ws.onopen = () => {
-      console.info('[Lanyard] Successfully connected\nTaking a peek huh? Check out the source code:\nhttps://github.com/selim1337/niskii.dev');
+      console.info('[Lanyard] Successfully connected\nTaking a peek huh? Check out the source code:\nhttps://github.com/seliim1337/web');
     };
     this.ws.onmessage = ({ data }) => {
       if (this.ws.readyState !== this.ws.OPEN) return;

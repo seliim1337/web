@@ -3,6 +3,7 @@ import { useTime } from '../../hooks/useTime';
 import { getAssetUrl } from "../../utils";
 import ButtonCard from "../card/ButtonCard";
 
+
 interface CardProps {
   activity: GatewayActivity;
 }
@@ -15,9 +16,11 @@ export function GameCard({ activity }: CardProps) {
       <h2 className="font-bold text-xs text-slate-300 leading-4 mb-2 uppercase select-none">Playing a game</h2>
 
       {/* Image */}
-      <div className="items-center flex">
+      <div className="items-center flex select-none">
         <div className="relative self-start">
           <img
+            data-tooltip-id="games-tooltip" 
+            data-tooltip-content={activity.assets.large_text}
             src={`${import.meta.env.VITE_DISCORD_CDN}/app-assets/${activity.application_id}/${activity.assets?.large_image}.webp`}
             width="60"
             height="60"

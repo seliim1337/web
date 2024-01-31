@@ -21,6 +21,7 @@ export function ProfileCard({ data }: CardProps) {
     <div className="w-[300px] text-slate-200 drop-shadow-xl">
       <div className="rounded-2xl overflow-hidden bg-zinc-900">
         <div className="relative">
+          
           {/* Banner */}
           <picture>
             <source type="image/webp" srcSet="/images/banner.webp" />

@@ -9,7 +9,8 @@ export function BadgesCard() {
            style={{ 
            backgroundColor: "rgb(0, 0, 0)", 
            color: "#fff" }} 
-           place="left"
+           place="top"
+           
            />
           <img
             data-tooltip-id="badges-tooltip" 

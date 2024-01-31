@@ -1,11 +1,11 @@
 {
   "name": "niskii.dev",
   "description": "My personal website, made using TypeScript, Vite.js and TailwindCSS.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/selim1337/niskii.dev.git"
+    "url": "https://github.com/seliim1337/web.git"
   },
   "license": "MIT",
   "author": "selim1337 <selim1337dev@gmail.com>",
