@@ -3,8 +3,6 @@ import { Spotify } from '../../types/lanyard';
 import { Spotify as SpotifyIcon } from '../icons/Spotify';
 import { SpotifyWhiteIcon } from '../icons/SpotifyWhiteIcon';
 import { ProgressBar } from '../ProgressBar';
-import './tooltip.css';
-import { Tooltip } from 'react-tooltip';
 
 interface CardProps {
   spotify: Spotify;
@@ -30,8 +28,8 @@ export function SpotifyCard({ spotify }: CardProps) {
             rel="noopener noreferrer"
             target="_blank"
           >
-          <Tooltip id="spotify-tooltip" style={{ backgroundColor: "rgb(0, 0, 0)", color: "#fff" }} className="select-none" />
-          <img data-tooltip-id="spotify-tooltip" data-tooltip-content={spotify.album} src={spotify.album_art_url} alt={spotify.album} width="70" height="70" className="select-none" />
+          
+          <img src={spotify.album_art_url} alt={spotify.album} width="70" height="70" className="h-auto w-14 rounded-xl sm:w-16 md:w-20 lg:w-20 select-none" />
           </a>{' '}
         </div>
 
